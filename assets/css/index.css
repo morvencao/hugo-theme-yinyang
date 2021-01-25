@@ -36,6 +36,13 @@ a:hover {
     text-decoration-color: #000;
 }
 
+.markdown-body blockquote {
+    background-color: #f8f8f8;
+    border-left: 2px solid;
+    margin: 40px;
+    padding: 10px 20px;
+}
+
 .markdown-body pre {
     padding: 16px;
     overflow: auto;
@@ -54,7 +61,7 @@ a:hover {
 
 .markdown-body pre>code {
     padding: 0;
-    font-size: 100%;
+    font-size: 85%;
     background-color: inherit;
     border: 0;
 }
@@ -131,7 +138,7 @@ a:hover {
     flex-wrap: wrap;
     padding: 12px 0;
     border-width: 3px;
-    border-style: solid none;
+    /*border-style: solid none;*/
     border-color: #000;
 }
 
@@ -180,6 +187,7 @@ a:hover {
 .post-category {
     display: inline;
     font-weight: 900;
+    margin: 0px 4px;
     padding: 2px 5px;
     border: #000 2px solid;
     border-radius: 5px;
